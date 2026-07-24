@@ -488,86 +488,79 @@ $$
 {}^nC_k = \frac{n!}{k!(n-k)!}
 $$  
 
-**Question Solve**  
-
-5 Toss Exactly 3 Heads? 
-
-n = 5, k = 3, p = 0.3   
-
-Step 1  
-
-## Combination
+**Combination**
 
 $$
 \binom{5}{3}=\frac{5!}{3!(5-3)!}=10
 $$
 
-## Step 2
-
-### Binomial Formula
+**Mean (Expected Value)** 
 
 $$
-P(X=3)
-=
-10\times(0.5)^3\times(0.5)^2
-=
-10\times(0.5)^5
-=
-10\times\frac{1}{32}
-=
-\frac{10}{32}
-=
-\frac{5}{16}
-=
-0.3125
-$$
+\mu=np
+$$  
 
-Therefore,
+**Variance**  
 
 $$
-P(X=3)=0.3125
-$$
+\sigma^2=np(1-p)
+$$  
 
----
-
-## Mean Formula
+**Standard Deviation**  
 
 $$
-\mu=np=5\times0.5=2.5
-$$
+\sigma=\sqrt{np(1-p)}
+$$  
 
----
-
-## Variance Formula
+**Expected Number of Successes**
 
 $$
-\sigma^2
-=
-np(1-p)
-=
-5\times0.5\times(1-0.5)
-=
-5\times0.5\times0.5
-=
-1.25
+E(X)=np
 $$
 
----
-
-## Standard Deviation Formula
+**Expected Number of Failures** 
 
 $$
-\sigma
-=
-\sqrt{np(1-p)}
-=
-\sqrt{5\times0.5\times(1-0.5)}
-=
-\sqrt{5\times0.5\times0.5}
-=
-\sqrt{1.25}
-\approx1.118
+n(1-p)
+$$  
+
+**Probability of Failure**  
+
 $$
+q=1-p
+$$  
+
+**Total Probability Rule**  
+
+$$
+p+q=1
+$$
+
+**Range of Random Variable**  
+
+$$
+x=0,1,2,\ldots,n
+$$  
+
+**Factorial Formula** 
+
+$$
+n!=n\times(n-1)\times(n-2)\times\cdots\times1
+$$  
+
+| Formula                              | Purpose                            |
+| ------------------------------------ | ---------------------------------- |
+| $P(X=x)=\binom{n}{x}p^x(1-p)^{n-x}$  | Probability Formula                |
+| $\binom{n}{x}=\dfrac{n!}{x!(n-x)!}$  | Combination Formula                |
+| $\mu=np$                             | Mean                               |
+| $\sigma^2=np(1-p)$                   | Variance                           |
+| $\sigma=\sqrt{np(1-p)}$              | Standard Deviation                 |
+| $E(X)=np$                            | Expected Value                     |
+| $q=1-p$                              | Probability of Failure             |
+| $p+q=1$                              | Total Probability                  |
+| $x=0,1,\ldots,n$                     | Possible Values of Random Variable |
+| $n!=n\times(n-1)\times\cdots\times1$ | Factorial                          |
+
 
 ### AI/ML UseCase of Binomial   
 
