@@ -497,40 +497,35 @@ n = 5, k = 3, p = 0.3
 Step 1  
 
 **Combination**     
-             
+            
 $$
-{}^5C_3
-=
-\frac{5!}{3!2!}
-=
-10
-$$  
+\binom{5}{3}=\frac{5!}{3!(5-3)!}=10
+$$
 
 Step 2  
 
 **Binomial Formula**     
 
 $$
-P(X=3)
-=
-10\times(0.5)^3\times(0.5)^2
-$$  
+P(X=3)=10\times(0.5)^3\times(0.5)^2
+$$
+
 $$
 =
 10\times(0.5)^5
-$$  
+$$ 
+
 $$
 =
 10\times\frac{1}{32}
 $$  
+
 $$
-=
 \frac{10}{32}
-=
-\frac{5}{16}
-=
-0.3125
-$$  
+=\frac{5}{16}
+=0.3125
+$$
+
 $$
 P(X=3)=0.3125
 $$  
@@ -539,13 +534,13 @@ $$
 
 $$
 \mu=np
-$$  
+$$
 
 $$
 \mu=5\times0.5=2.5
 $$  
 
-Variance Formula    
+**Variance Formula**    
 
 $$
 \sigma^2=np(1-p)
@@ -556,10 +551,12 @@ $$
 =
 5\times0.5\times(1-0.5)
 $$  
+
 $$
 =
 5\times0.5\times0.5
-$$  
+$$ 
+
 $$
 =
 1.25
@@ -575,18 +572,16 @@ $$
 \sigma
 =
 \sqrt{5\times0.5\times(1-0.5)}
-$$  
+$$ 
+
 $$
 =
 \sqrt{5\times0.5\times0.5}
-$$  
+$$ 
+
 $$
-=
-\sqrt{1.25}
-$$  
+\sqrt{1.25}\approx1.118
 $$
-\approx1.118
-$$  
 
 ### AI/ML UseCase of Binomial   
 
