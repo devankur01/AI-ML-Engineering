@@ -496,91 +496,77 @@ n = 5, k = 3, p = 0.3
 
 Step 1  
 
-**Combination**     
-            
+## Combination
+
 $$
 \binom{5}{3}=\frac{5!}{3!(5-3)!}=10
 $$
 
-Step 2  
+## Step 2
 
-**Binomial Formula**     
-
-$$
-P(X=3)=10\times(0.5)^3\times(0.5)^2
-$$
+### Binomial Formula
 
 $$
+P(X=3)
+=
+10\times(0.5)^3\times(0.5)^2
 =
 10\times(0.5)^5
-$$ 
-
-$$
 =
 10\times\frac{1}{32}
-$$  
-
-$$
+=
 \frac{10}{32}
-=\frac{5}{16}
-=0.3125
+=
+\frac{5}{16}
+=
+0.3125
 $$
+
+Therefore,
 
 $$
 P(X=3)=0.3125
-$$  
-
-**Mean Formula**    
-
-$$
-\mu=np
 $$
 
-$$
-\mu=5\times0.5=2.5
-$$  
+---
 
-**Variance Formula**    
+## Mean Formula
 
 $$
-\sigma^2=np(1-p)
-$$  
+\mu=np=5\times0.5=2.5
+$$
+
+---
+
+## Variance Formula
 
 $$
 \sigma^2
 =
+np(1-p)
+=
 5\times0.5\times(1-0.5)
-$$  
-
-$$
 =
 5\times0.5\times0.5
-$$ 
-
-$$
 =
 1.25
-$$  
-
-**Standard Deviation Formula**  
-
 $$
-\sigma=\sqrt{np(1-p)}
-$$  
+
+---
+
+## Standard Deviation Formula
 
 $$
 \sigma
 =
+\sqrt{np(1-p)}
+=
 \sqrt{5\times0.5\times(1-0.5)}
-$$ 
-
-$$
 =
 \sqrt{5\times0.5\times0.5}
-$$ 
-
-$$
-\sqrt{1.25}\approx1.118
+=
+\sqrt{1.25}
+\approx1.118
 $$
 
 ### AI/ML UseCase of Binomial   
