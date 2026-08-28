@@ -289,7 +289,9 @@ Example:
 
 **Mean Squared Error**  
 
-MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2  
+$$
+MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2
+$$
 
 Here:   
 
